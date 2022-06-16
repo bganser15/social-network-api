@@ -11,11 +11,11 @@ const userController = {
   // get all users
   getAllUser(req, res) {
     User.find({})
-      //displays comments
-      //.populate({
-      //path: "comments",
-      //select: "-__v",
-      //})
+      //displays thoughts
+      .populate({
+      path: "thoughts",
+      select: "-__v",
+      })
       .select("-__v")
       .sort({ _id: -1 })
       .then((dbUserData) => res.json(dbUserData))
