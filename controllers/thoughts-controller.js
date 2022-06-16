@@ -47,7 +47,6 @@ const thoughtController = {
   },
 
   //update thought by id
-
   //delete thought by id
 
   removeThought({ params }, res) {
