@@ -33,10 +33,10 @@ const UserSchema = new Schema(
   }
 );
 
-// get total count of comments and replies on retrieval
-/* UserSchema.virtual('thoughtCount').get(function() {
-  return this.comments.length;
-}); */
+// get total count of thoughts
+UserSchema.virtual("thoughtCount").get(function () {
+  return this.thoughts.length;
+});
 
 const User = model("User", UserSchema);
 

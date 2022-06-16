@@ -4,6 +4,7 @@ const {
   addThought,
   getAllThoughts,
 } = require("../../controllers/thoughts-controller");
+
 // /api/thought
 router.route("/").post(addThought).get(getAllThoughts);
 
