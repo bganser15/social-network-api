@@ -44,6 +44,12 @@ const userController = {
         res.status(400).json(err);
       });
   },
+
+  //update user by id
+
+  //delete user by id
+
+  
 };
 
 module.exports = userController;
