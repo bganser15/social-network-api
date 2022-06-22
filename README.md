@@ -45,9 +45,6 @@ https://mongoosejs.com/docs/guide.html
 Express.js Documentation
 https://expressjs.com/
 
-## Demo
-
-
 ## Authors
 
 - [Brittany Ganser](https://github.com/bganser15)
